@@ -215,15 +215,15 @@
   <section id="contacts" class="contactus text-dark text-center">
     <div class="m-auto">
       <h1 class="default-color-y pt-5">Напиши нам</h1>
-      <from class="form mb-5 px-3" post="form.php">
+      <from class="form mb-5 px-3" action=form.php method=post>
         <div class="input-group my-4 m-auto">
-          <input type="text" class="form-control" placeholder="Имя">
+          <input type="text" class="form-control" name="name" placeholder="Имя">
         </div>
         <div class="input-group my-4 m-auto">
-          <input type="text" class="form-control" placeholder="e-mail">
+          <input type="text" class="form-control"  name="email" placeholder="e-mail">
         </div>
         <div class="input-group my-4 m-auto">
-          <textarea class="form-control" placeholder="Ваше сообщение"></textarea>
+          <textarea class="form-control" name="content" placeholder="Ваше сообщение"></textarea>
         </div>
 
         <div type="submit" class="default-btn-md btn" type="submit">

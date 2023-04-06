@@ -21,3 +21,32 @@ const handleHeaderButton = () => {
     }
   }, 400)
 }
+
+
+function sendMessage() {
+
+  let data = {
+    name: document.getElementById('contact_name').value,
+    email: document.getElementById('contact_email').value,
+    message: document.getElementById('contact_message').value,
+  }
+
+  const formBtn = document.querySelector("#form-contact");
+  
+  $.ajax({
+    url: "form.php",
+    method: "post",
+    data: data ,
+    success: function (result) {
+      $('#success').css('display', 'block');
+      $('#form-contact').css('display', 'none');
+      formBtn.classList.add("disabled");
+      console.log(
+        result
+      ); 
+    },
+    error: function (result) {
+      alert("error")
+    }
+  })
+}

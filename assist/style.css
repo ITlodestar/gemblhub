@@ -169,7 +169,8 @@ body {
 
 .webmater .item {
   max-width: 372px;
-  margin: 371px;
+  margin-top: 250px;
+  margin-bottom: 150px;
   background: #1E1914;
   border: 1px solid #FFC700;
   text-align: center;

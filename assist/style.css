@@ -371,6 +371,10 @@ footer {
 
 @media (max-width: 992px) {
 
+  .webmater .item {
+    margin: 26px;
+  }
+
   #navbar.show {
     background: #141414;
     top: 0;
@@ -509,9 +513,6 @@ footer {
     background-size: 100%;
   }
 
-  .webmater .item {
-    margin: 26px;
-  }
 
   .webmater .item h1 {
     font-size: 32px;

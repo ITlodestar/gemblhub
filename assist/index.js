@@ -6,6 +6,7 @@ const handleHeaderButton = () => {
     const hamburger = document.getElementById("hamburger");
     const hamburgerCancel = document.getElementById("hamburger-cancel");
 
+    console.log("123", dropdown.className);
     if(dropdown.className.includes("show")) {
       headerButton.style.visibility = "hidden";
       navbar.classList.add("show");

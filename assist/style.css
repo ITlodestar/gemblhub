@@ -336,6 +336,7 @@ body {
 footer {
   padding-top: 46px;
   padding-bottom: 74px;
+  border-top:  #FFC700 solid 1px;
 }
 
 .contact-footer img {

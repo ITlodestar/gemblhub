@@ -3,7 +3,7 @@ body {
   font-style: normal;
   font-weight: 500;
   color: white;
-  background-image: url(./images/desktopbg.jpg);
+  background-image: url(./images/desktopbg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -159,8 +159,7 @@ body {
 }
 
 .webmater {
-  padding-top: 30px;
-  padding-bottom: 60px;
+  background-position: 0;
   background-image: url(./images/Frame2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -168,7 +167,7 @@ body {
 
 .webmater .item {
   max-width: 372px;
-  margin: 152px;
+  margin: 371px;
   background: #1E1914;
   border: 1px solid #FF7C00;
   text-align: center;
@@ -343,14 +342,18 @@ footer {
 
 .chip-mobile {
   display: none;
-  background-image: url(./images/threebg.png);
-  background-position: center;
-  background-size: cover;
 }
 
 .chip-desk {
   display: inline;
-  background-image: url(./images/threebg.png);
+  position: absolute;
+  left: 0;
+  height: 50%;
+  top: 15%;
+  border: 1px solid #000000;
+  filter: blur(250px);
+  background: rgba(255, 199, 0, 0.48);
+  width: 50%;
   background-position: center;
   background-size: cover;
 }
@@ -501,9 +504,11 @@ footer {
     background-image: url('./images/Frame2-mobile.png');
     background-size: 100%;
   }
+
   .webmater .item {
     margin: 26px;
   }
+
   .webmater .item h1 {
     font-size: 32px;
     line-height: 38px;

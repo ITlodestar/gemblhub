@@ -14,7 +14,7 @@ body {
 }
 
 .default-color-y {
-  color: #FF7C00;
+  color: #FFC700;
 }
 
 .bg-grey-img {
@@ -62,12 +62,12 @@ body {
   display: flex;
   padding: 7px 9px;
   color: white;
-  background: #FF7C00;
+  background: #FFC700;
   align-items: center;
 }
 
 #navbarSupportedContent a:hover {
-  color: #FF7C00 !important;
+  color: #FFC700 !important;
 }
 
 
@@ -118,7 +118,7 @@ body {
   background: #1E1914;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.12);
   padding: 38px 0 42px 49px;
-  border: 1px solid #FF7C00;
+  border: 1px solid #FFC700;
   box-shadow: 0px 0px 50px #2C1500;
 }
 
@@ -169,7 +169,7 @@ body {
   max-width: 372px;
   margin: 371px;
   background: #1E1914;
-  border: 1px solid #FF7C00;
+  border: 1px solid #FFC700;
   text-align: center;
   box-shadow: 14px 12px 30px rgba(0, 0, 0, 0.76);
 }
@@ -189,7 +189,7 @@ body {
   font-size: 40px;
   line-height: 47px;
 
-  color: #FF7C00;
+  color: #FFC700;
 }
 
 .webmater .item p {
@@ -257,7 +257,7 @@ body {
 }
 
 .discount span {
-  color: #FF7C00;
+  color: #FFC700;
 }
 
 .default-btn-md {
@@ -309,7 +309,7 @@ body {
 }
 
 .btn-tg-mail {
-  border: 2px solid #FF7C00;
+  border: 2px solid #FFC700;
   border-radius: 50px;
   width: 273px;
   height: 50px;
